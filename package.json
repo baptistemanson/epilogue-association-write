@@ -1,0 +1,28 @@
+{
+  "name": "epilogue-association-write",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baptistemanson/epilogue-association-write.git"
+  },
+  "keywords": [
+    "epilogue",
+    "javascript",
+    "sequelize"
+  ],
+  "author": "Baptiste Manson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baptistemanson/epilogue-association-write/issues"
+  },
+  "homepage": "https://github.com/baptistemanson/epilogue-association-write#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^4.16.2"
+  }
+}
