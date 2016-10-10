@@ -30,5 +30,6 @@
     "babel-cli": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "standard-version": "^3.0.0"
-  }
+  },
+  "version": null
 }
