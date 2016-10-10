@@ -1,7 +1,7 @@
 {
   "name": "epilogue-association-write",
   "description": "A helper for epilogue and sequelize",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
