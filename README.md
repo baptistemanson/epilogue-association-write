@@ -1,8 +1,10 @@
-# Epilogue-association-write
+ # Epilogue-association-write
 
 
 This library contains a helper for [Epilogue](https://github.com/dchester/epilogue) to add the capability to POST belongsTo and belongsToMany.
 In a single POST REST call, you can save an entity, and its relationship.
+
+This library is experimental and you should understand its implementation.
 
 ##Install
 
@@ -44,7 +46,9 @@ POST /users
   groups: [ {id: 1}, {id: 2}]
 }
 ```
-You can add complementary JOIN table values directly in the call as well:
+It will create a user John Doe, associated with the groups 1 and 2.
+
+You can also add complementary JOIN values directly in the call as well (in the case of a _belongsToMany_):
 
 ```
 POST /users
@@ -54,3 +58,8 @@ POST /users
   groups: [ {id: 1, role: 'Admin'}, {id: 2, role: 'User'}]
 }
 ```
+##Limitations
+
+* 
+All relations must have a field called "id" that acts as a primary key (not null, unique). 
+* The current version doesn't go deeper than 1 level depth.
