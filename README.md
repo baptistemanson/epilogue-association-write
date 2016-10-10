@@ -21,5 +21,6 @@ var userResource = epilogue.resource({
   association: true
 })
 
+userResource.create.write(epilogueAssociationWrite(userResource))
 userResource.update.write(epilogueAssociationWrite(userResource))
 ```
