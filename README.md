@@ -49,7 +49,8 @@ userResource.create.write(epilogueAssociationWrite(userResource))
 userResource.update.write(epilogueAssociationWrite(userResource))
 ```
 
-You can then post on users:
+You can then post:
+
 ```
 POST /users
 {
@@ -58,6 +59,7 @@ POST /users
   groups: [ {id: 1}, {id: 2}]
 }
 ```
+
 It will create a user John Doe, associated with the groups 1 and 2. The group field is handled as a cancel and replace.
 
 You can also add complementary JOIN values directly in the call as well (in the case of a _belongsToMany_):
@@ -74,7 +76,7 @@ POST /users
 
 * All relations must have a field called "id" that acts as a primary key (not null, unique). 
 * The current version doesn't go deeper than 1 level depth.
-* I didn't take the time to unit test it.
+* No unit test it.
 
 ## License
 
