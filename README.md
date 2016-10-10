@@ -35,7 +35,7 @@ userResource.create.write(epilogueAssociationWrite(userResource))
 userResource.update.write(epilogueAssociationWrite(userResource))
 ```
 
-Then you can post directly:
+You can then post:
 ```
 POST /users
 {
@@ -51,6 +51,6 @@ POST /users
 {
   firstName:'John',
   lastName: 'Doe',
-  groups: [ {id: 1, role: 'Admin'}, {id: 2, role: 'Regular'}]
+  groups: [ {id: 1, role: 'Admin'}, {id: 2, role: 'User'}]
 }
 ```
