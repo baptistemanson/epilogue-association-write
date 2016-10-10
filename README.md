@@ -1,4 +1,4 @@
-# epilogue-association-write
+# Epilogue-association-write
 
 
 This library contains a helper to add the capability to POST belongsToMany.
@@ -8,7 +8,7 @@ In a single POST REST call, you can save an entity, and its relationship.
 
 ```bash
 
-npm install git@github.com:baptistemanson/epilogue-association-write.git
+npm install --save git@github.com:baptistemanson/epilogue-association-write.git
 ```
 
 ##Usage
