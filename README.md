@@ -4,7 +4,7 @@
 This library contains a helper for [Epilogue](https://github.com/dchester/epilogue) to add the capability to POST belongsTo and belongsToMany.
 In a single POST REST call, you can save an entity, and its relationship.
 
-This library is experimental and you should understand its implementation.
+This library is experimental; I advice you to spend the time understanding its implementation if you want to use it.
 
 ##Install
 
