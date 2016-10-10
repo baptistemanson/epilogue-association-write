@@ -12,7 +12,7 @@ I only use it in 1 projet.
 
 ```bash
 
-npm install --save git@github.com:baptistemanson/epilogue-association-write.git
+npm install --save epilogue-association-write
 ```
 
 ## Usage
