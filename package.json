@@ -1,6 +1,7 @@
 {
   "name": "epilogue-association-write",
   "description": "A helper for epilogue and sequelize",
+  "version": null,
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -30,6 +31,5 @@
     "babel-cli": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "standard-version": "^3.0.0"
-  },
-  "version": null
+  }
 }
